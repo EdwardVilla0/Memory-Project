@@ -1,6 +1,10 @@
 import React from 'react'
+import memories from '../../../images/memories.png';
+import useStyles from './Post.styles';
 
 const Post = () => {
+    const classes = useStyles();
+
     return (
         <h1>Post</h1>
     );
