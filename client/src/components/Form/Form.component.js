@@ -1,5 +1,5 @@
 import React from 'react'
-import memories from '../../images/memories.png';
+import { TextField, Button, Typography, Paper } from '@material-ui/core'
 import useStyles from './Form.styles';
 
 const Form = () => {

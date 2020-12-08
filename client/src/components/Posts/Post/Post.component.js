@@ -1,5 +1,4 @@
 import React from 'react'
-import memories from '../../../images/memories.png';
 import useStyles from './Post.styles';
 
 const Post = () => {
