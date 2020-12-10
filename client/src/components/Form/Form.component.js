@@ -20,7 +20,7 @@ const Form = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        dispatch(createPost)
+        dispatch(createPost(postData));
     }
 
     const clear = () => {
