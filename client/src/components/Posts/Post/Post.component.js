@@ -20,7 +20,7 @@ const Post = ({ post, setCurrentId }) => {
                 <Button
                     style={{ color: 'white' }}
                     size="small"
-                    onClick={() => { setCurrentId(post._id) }}>
+                    onClick={() => setCurrentId(post._id)}>
                     <MoreHorizIcon fontSize="default" />
                 </Button>
             </div>
